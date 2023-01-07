@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* header section start*/
+
+.header {
+    width: 100%;
+    height: 695px;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-item {
+    text-align: right;
+}
+
+.header-item h1 {
+    padding-top: 200px;
+    padding-bottom: 24px;
+    padding-right: 150px;
+    color: #FFF;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.header-item p {
+    padding-bottom: 24px;
+    padding-right: 150px;
+    line-height: 24px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.btn-primary {
+    width: 120px;
+    margin-right: 150px;
+    color: #005FAC;
+    font-size: 18px;
+    height: 53px;
+    font-weight: 500;
+    background-color: #FFF;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* about section */
+
+.about {
+    width: 100%;
+}
+
+.about-item {
+    display: flex;
+    padding: 50px 100px;
+    gap: 80px;
+}
+
+.about-item-details {
+    padding-top: 220px;
+}
+
+.about-item-details h1 {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 24px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.about-item-details p {
+    line-height: 27px;
+    font-weight: 500;
+    color: #444343;
+}
+
+
+.check-item {
+    padding-top: 30px;
+}
+
+.check-item i {
+    display: flex;
+    color: #16D887;
+
+}
+
+.check-item p {
+    font-weight: 500;
+    margin-top: -6px;
+    padding-left: 10px;
+    color: #444343;
+}
+
+/*  My plan section  */
+
+.my-plan {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.my-plan-title h1 {
+    text-align: center;
+    font-size: 38px;
+    padding-top: 100px;
+}
+
+.my-plan-details{
+    padding: 100px 200px;
+    display: flex;
+    gap: 90px;
+}
+
+.my-plan-content {
+    text-align: center;
+}
+
+.my-plan-content h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.my-plan-content p {
+    text-align: center;
+    font-weight: 500;
+    color: #444343;
+}
+
+
+/* Testimonial Section Styling */
+#testimonial {
+    padding: 30px 100px;
+    text-align: center;
+}
+
+
+#testimonial h2 {
+    text-align: left;
+    line-height: 40px;
+    color: #000;
+    font-size: 2rem;
+}
+
+#testimonial .carousel-items {
+    display: flex;
+    gap: 20px;
+    flex-flow: row;
+    margin: 50px auto;
+}
+
+#testimonial .carousel-items .carousel {
+    padding: 1.5rem;
+    margin-right: 20px;
+    display: flex;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.09);
+    flex-flow: column;
+    gap: 15px;
+}
+
+.avatar img {
+    width: 60px;
+}
+
+.client-info h4 {
+    color: #000;
+}
+
+.client-testimony {
+    color: #151414;  
+}
+
+/* img gradient section */
+
+.img-gradient {
+    width: 100%;
+}
+
+.img-postion {
+    padding: 150px;
+}
+
+.img-grad {
+    width: 100%;
+    height: 300px;
+    border-radius: 9px;
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-grad h1 {
+    color: #FFF;
+    padding: 55px 100px;
+    line-height: 40px;
+    font-size: 35px;
+}
+
+.btn-primary2 {
+    width: 120px;
+    margin: 0px 100px;
+    margin-top: -15px;
+    color: #005FAC;
+    font-size: 18px;
+    font-weight: 500;
+    height: 53px;
+    background-color: #FFF;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* Footer part */
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+}
+
+.footer-item {
+    padding: 50px 140px;
+    gap: 300px;
+    display: flex;
+}
+
+.footer-content {
+    padding-top: 50px;
+    color: #FFF;
+}
+
+.footer-content h1 {
+    padding-bottom: 20px;
+}
+
+.footer-content p {
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer-content a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.footer-email {
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+.footer-phone {
+    padding-bottom: 20px;
+}
+
+.footer-subscribe {
+    padding-top: 50px;
+}
+
+.footer-subscribe h2 {
+    color: #FFF;
+    padding-bottom: 30px;
+}
+
+
+input {
+    color: #FFF;
+    background-color: #000;
+    height: 20px;
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+}
+
+::placeholder {
+    color: #F3F3F3;
+
+}
+
+.btn-primary3 {
+    width: 130px;
+    margin-right: 150px;
+    color: #FFF;
+    font-size: 18px;
+    height: 53px;
+    background-color: #005FAC;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+/* © 2023 Md Shafaat Hossen All Rights Reserved  */
+ 
